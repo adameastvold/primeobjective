@@ -15,3 +15,15 @@ __________       .__                 ________ ___.        __              __  ._
 ************************************************************************************************/
 
 console.log('WOOOOO!!');
+
+var array = ["what", "the", "heck", "!"]
+
+//loop through an array
+for(var i = 0; i < array.length; i++){
+	console.log(array[i]);
+};
+
+//forEach
+array.forEach(function(person, i){
+	console.log(i + " " + person);
+});
